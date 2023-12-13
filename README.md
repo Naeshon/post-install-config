@@ -29,11 +29,10 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Configuration Steps</h2>
 
+![image](https://github.com/Naeshon/post-install-config/assets/153772720/0e3607ee-a10a-4859-9f41-9282ea28af87)
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+1) After you've log into osTicket, make your way to the Admin Panel (you'll know you're in the admin panel if there is an option to click 'Agent Panel' in the top right-hand corner), then click onto the 'Agents' tab. From there, click the 'Roles' tab, from here you can create multiple new roles.
 </p>
 <br />
 
