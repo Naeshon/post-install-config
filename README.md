@@ -67,6 +67,40 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+5) To configure Agents we must go to Admin Panel -> Agents -> Add New. Once you've made it to this page, you can create however many Agents as needed. Make sure to set the access permissions for each Agent & assign them a department.
+
+
+![image](https://github.com/Naeshon/post-install-config/assets/153772720/2402d883-47bc-42b5-a5ea-ae16230438b0)
+
 </p>
 <br />
+
+
+6) Next, we have to configure some new users. Users are essentially the people whom recieve the support (the people that create the tickets). For this step, go to Agent Panel -> Users -> Add New. Make as many Users as you may need.
+
+
+![image](https://github.com/Naeshon/post-install-config/assets/153772720/3a3b767b-775c-4516-bfc2-d463ea2291e2)
+
+
+
+7) Moving on, we must now configure the SLA (Service Level Agreements) which is basically a priority list for every ticket. For example, if your workplace's website was having an outage where customers can shop, this would be a high-priority issue to fix because it is actively costing the business money, therefore it would recieve the highest priority SLA. To configure the SLA's go to Admin Panel -> Manage -> SLA. In this example, Sev-A is the highest priority SLA with a 24/7 schedule and a one-hour grace period, meaning a Sev-A ticket would need to be tended to within an hour no matter what day of the week it is. Sev-B would be something like a 24/7 schedule with a 4-hour grace period. 
+
+
+
+![image](https://github.com/Naeshon/post-install-config/assets/153772720/53698466-2dbb-4d19-a309-034ad1a9e1f9)
+
+![image](https://github.com/Naeshon/post-install-config/assets/153772720/5a3bbb3d-44f6-49fd-aded-46d9a6f4a048)
+
+
+8) After adding our SLA's go to Admin Panel -> Manage -> Help Topics to configure help topics. From here, create multiple Help Topics for Business Critical Outage, Personal Computer Issues, Equipment Request, Password Reset.
+
+
+
+![image](https://github.com/Naeshon/post-install-config/assets/153772720/f0d76c4b-ee50-4b7d-905d-b5ea6dcac692)
+
+
+
+
+9) Just like that you've configured your entire osTicket Ticketing System in your Windows Virtual Machine! Congratulations!
+
+
